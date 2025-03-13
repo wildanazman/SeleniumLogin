@@ -1,0 +1,29 @@
+Screenshot of maven test can be found:MAVEN RESULT.pdf
+
+
+Cucumber Report for  Question 1 WEB UI Testing can be found in:
+
+\SeleniumFramework\target\cucumber-reports.html
+
+
+Report Result for  Q1 UI testing and Q2 API Testing can be found in the folder:
+\SeleniumFramework\target\surefire-reports
+
+
+for UI Testing, the code is in SeleniumFramework\src\test
+
+
+For login page :SeleniumFramework\src\main\java\com\qa\automation\pages\LoginPage.java //define all the element to fill in
+
+For login step: SeleniumFramework\src\test\java\com\qa\automation\stepdefinitions\LoginSteps.java //define the steps matching with the feature file
+
+For Test Runner : SeleniumFramework\src\test\java\com\qa\automation\runner\CucumberUITest.java // to call the feature file, run and set the report location
+
+For Cucumber Feature file: SeleniumFramework\src\test\resources\features
+
+
+for API Testing,
+
+the code is in the folder : SeleniumFramework\src\test\java\com\api\wildan\APITest.java
+
+
